@@ -14,3 +14,20 @@
 
 #### 编辑图表颜色，line shape等
 ![](https://i.imgur.com/wqbteWd.png)
+#### 设置图表大小
+![](https://i.imgur.com/GwvLZYe.png)
+#### 把横坐标改成年份。
+    
+    
+    plt.xticks(list(range(0,10)),Seasons)
+    其中Seasons是含有10个年份的list，list(range(0,10))是取10个数，把他们变成list，意为10个年份，10个横坐标
+    
+![](https://i.imgur.com/S5HDS2i.png)
+
+#### 改一改其他参数，比如竖过来
+![](https://i.imgur.com/9vyJps7.png)
+
+    plt.plot(Salary[0],c="Black",ls = '--',marker='s',ms=7,label=Players[0])
+    plt.xticks(list(range(0,len(Seasons))),Seasons,rotation='vertical')
+    #add tickmark
+    plt.show()
