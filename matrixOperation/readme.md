@@ -31,3 +31,9 @@
     plt.xticks(list(range(0,len(Seasons))),Seasons,rotation='vertical')
     #add tickmark
     plt.show()
+
+### 给图标加legend，比例尺
+![](https://i.imgur.com/PqOjU4e.png)
+
+### 把legend放在右上角
+![](https://i.imgur.com/17hs5Vp.png)
