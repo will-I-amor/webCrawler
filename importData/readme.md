@@ -23,3 +23,6 @@ stats.tail(6)打出后6行的数据
 ![](https://i.imgur.com/UgOrqL5.png)
 
 stats.describe().transpose()把数据横过来，变一个方向
+
+#### 如何更改表格的columns
+![](https://i.imgur.com/ucqtzxE.png)
